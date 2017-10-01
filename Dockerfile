@@ -18,4 +18,5 @@ RUN echo -e "source 'https://rubygems.org' \n\
     gem 'middleman-search'" > Gemfile
 
 RUN ls -la
+RUN cat Gemfile
 RUN bundle install
